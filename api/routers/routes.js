@@ -8,7 +8,7 @@ route.post('/users/new',_.register);
 route.post('/tickets/new',auth,_.raiseTicket);
 route.get('/tickets/all',_.getAllTickets);
 route.get('/tickets',_.getTickets);
-route.post('/tickets/makeAsClosed',_.closeTicket);
+route.post('/tickets/markAsClosed',auth,_.closeTicket);
 route.post('/tickets/delete',auth,_.delTicket);
 
 export default route

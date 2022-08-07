@@ -2,6 +2,7 @@ import user from "../models/Users.js";
 import tickets from "../models/Tickets.js";
 import jwt from 'jsonwebtoken';
 import { json } from "express";
+import { compile } from "morgan";
 
 const home = (req, res) => {
     res.send("Ticketing Api");
@@ -10,15 +11,15 @@ const home = (req, res) => {
 const register = async (req, res) => {
     try {
         const { username, role } = req.body;
-        var message=undefined;
+        var message = undefined;
         if (!username || !role) {
             message = "invalid details";
         }
-        else if (role!=="admin" && role!=="employee") {
+        else if (role !== "admin" && role !== "employee") {
             message = "role must be employee or admin";
         }
-        if(message){
-            return res.status(400).json({'message':message}).end();
+        if (message) {
+            return res.status(400).json({ 'message': message }).end();
         }
         const isUserExist = await user.exists({ 'username': username });
         console.log(isUserExist);
@@ -29,7 +30,7 @@ const register = async (req, res) => {
         }
 
         await user.create(
-            { username, role},
+            { username, role },
             (err => {
                 console.log(err);
             })
@@ -52,10 +53,22 @@ const raiseTicket = async (req, res) => {
     try {
         console.log(req.authUser);
         const isExist = await user.exists({ 'username': req.authUser, "role": "admin" });
-        if (!isExist) res.status(400).json({ 'message': 'unauthorised access' }).end();
-
+        if (!isExist) {
+            return res.status(400).json({ 'message': 'unauthorised access' }).end();
+        }
         const { title, description } = req.body;
-        const ticketdata = await tickets.create({ title, description });
+        const userData = await user.find();
+        if(!userData){
+            return res.status(200).json({
+                'message':"No employees to assign task"
+            })
+        }
+        const ind = Math.floor(Math.random()*userData.length);
+        const assignedTo = userData[ind].username;
+
+        const status = ['low','high','medium'].at(Math.floor(Math.random()*3));
+        const ticketdata = await new tickets({ title, description,assignedTo,status});
+        ticketdata.save();
         res.status(200).json({ 'message': ticketdata['_id'] }).end();
     }
     catch (err) {
@@ -70,18 +83,22 @@ const getAllTickets = async (req, res) => {
 
 const getTickets = async (req, res) => {
     try {
-        const { status, title, priority } = req.params;
+        const { status, title, priority } = req.query;
         if (status) {
             const data = await tickets.find({ 'status': status });
             res.status(200).json({ 'message': data }).end();
         }
         else if (title) {
-            const data = await tickets.find({ 'status': title });
-            res.status(200) / json({ 'message': data }).end();
+            const data = await tickets.find({ 'title': title });
+            res.status(200).json({ 'message': data }).end();
         }
         else if (priority) {
             const data = await tickets.find({ 'priority': priority });
             res.status(200).json({ 'message': data }).end();
+        }
+        else {
+            console.log(status, title, priority);
+            res.status(300).json({ 'message': "enter parameters" });
         }
     }
     catch (err) {
@@ -89,14 +106,57 @@ const getTickets = async (req, res) => {
         res.status(500).json({ 'message': "Internal Error" }).end();
     }
 }
-const closeTicket = (req, res) => {
+const closeTicket = async (req, res) => {
+    try {
+        const data = await tickets.findById(req.body.ticketID);
+        console.log(data);
+        if (data['assignedTo'] === "") {
+            return res.status(400).json({
+                'message': 'tickets not assigned to you'
+            });
+        }
+        var userData=undefined;
 
+        if (data['assignedTo'] === req.authUser) {
+            userData=data['assignedTo'];
+        }
+        else {
+            userData = await user.find({ 'username': data['assinedTo'], 'role': "admin" });
+            console.log(userData)
+        }
+        // console.log(userData)
+        if (userData && userData.length) {
+            const tdata = await tickets.find({
+                "assignedTo": userData['username'],
+                "priority": "high",
+                "status": "open"
+            });
+            if (tdata && tdata.length) {
+                return res.status(300).json({
+                    'error': '‘A higher priority task remains to be closed',
+                    'tasksToBeClosed': tdata
+                })
+            }
+            await tickets.findByIdAndUpdate(req.body.ticketID, { 'status': "closed" });
+            res.status(200).json({
+                "message": "Ticket Closed Successfully"
+            })
+        }
+        else{
+            res.status(300).json({
+                'message':'Unauthorised access'
+            })
+        }
+    }
+    catch (err) {
+        console.log(err);
+    }
 }
 const delTicket = async (req, res) => {
     try {
         const data = await tickets.findOneAndDelete(req.ticketID);
         if (data) {
-            res.status(200).json({ 'message': 'Deleted' }).end();
+            res.status(200).json({ 'message': 'Deleted Succesfully' }).end();
         }
     }
     catch (err) {
@@ -106,4 +166,4 @@ const delTicket = async (req, res) => {
 }
 
 
-export { raiseTicket, delTicket, getTickets,getAllTickets, closeTicket, register, home };
+export { raiseTicket, delTicket, getTickets, getAllTickets, closeTicket, register, home };
