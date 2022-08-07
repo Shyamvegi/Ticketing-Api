@@ -22,7 +22,7 @@ Params -- ticketID
 Method -- Post
 Authentication Required
 
-## Get All Tickets : /tickets/all
+## Get All Tickets : https://ticketingapiv1.herokuapp.com/tickets/all
 Method -- GET
 
 ## Get Tickets : https://ticketingapiv1.herokuapp.com/tickets/<params>
