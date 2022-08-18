@@ -1,0 +1,157 @@
+[0mPOST /users/new [32m200[0m 297.517 ms - 166[0m
+[0mPOST /tickets/new [32m200[0m 324.954 ms - 38[0m
+[0mPOST /tickets/new [32m200[0m 420.157 ms - 38[0m
+[0mPOST /tickets/new [32m200[0m 318.353 ms - 38[0m
+[0mPOST /tickets/new [32m200[0m 341.956 ms - 38[0m
+[0mPOST /tickets/new [33m400[0m 98.366 ms - 33[0m
+[0mPOST /tickets/new [32m200[0m 211.225 ms - 38[0m
+[0mPOST /tickets/new [33m404[0m 2.983 ms - 28[0m
+[0mPOST /tickets/new [32m200[0m 284.874 ms - 38[0m
+[0mPOST /tickets/delete [32m200[0m 227.240 ms - 33[0m
+[0mPOST /tickets/delete [32m200[0m 110.980 ms - 33[0m
+[0mPOST /tickets/delete [32m200[0m 113.637 ms - 33[0m
+[0mPOST /tickets/delete [32m200[0m 124.202 ms - 33[0m
+[0mGET /tickets/all [32m200[0m 245.235 ms - 2746[0m
+[0mGET /tickets/?status=low [32m200[0m 145.400 ms - 596[0m
+[0mPOST /tickets/delete [32m200[0m 213.549 ms - 33[0m
+[0mPOST /tickets/delete [32m200[0m 178.764 ms - 33[0m
+[0mGET /tickets/?status=low [32m200[0m 251.609 ms - 596[0m
+[0mPOST /tickets/delete [32m200[0m 281.020 ms - 33[0m
+[0mGET /tickets/all [32m200[0m 165.569 ms - 2162[0m
+[0mPOST /tickets/delete [32m200[0m 273.623 ms - 33[0m
+[0mGET /tickets/all [32m200[0m 194.663 ms - 1967[0m
+[0mPOST /tickets/delete [32m200[0m 225.620 ms - 33[0m
+[0mPOST /tickets/delete [32m200[0m 186.869 ms - 33[0m
+[0mGET /tickets/all [32m200[0m 133.122 ms - 1575[0m
+[0mPOST /tickets/delete [32m200[0m 104.140 ms - 33[0m
+[0mGET /tickets/all [32m200[0m 110.721 ms - 1379[0m
+[0mPOST /tickets/delete [32m200[0m 241.085 ms - 33[0m
+[0mPOST /tickets/delete [32m200[0m 306.159 ms - 33[0m
+[0mGET /tickets/all [32m200[0m 223.556 ms - 988[0m
+[0mPOST /tickets/delete [32m200[0m 100.790 ms - 33[0m
+[0mPOST /tickets/delete [31m500[0m 72.621 ms - 28[0m
+[0mPOST /tickets/delete [31m500[0m 95.890 ms - 28[0m
+[0mPOST /tickets/delete [31m500[0m 94.660 ms - 28[0m
+[0mPOST /tickets/delete [31m500[0m 97.576 ms - 28[0m
+[0mPOST /tickets/delete [31m500[0m 97.260 ms - 28[0m
+[0mPOST /tickets/delete [31m500[0m 70.381 ms - 28[0m
+[0mPOST /tickets/delete [31m500[0m 81.800 ms - 28[0m
+[0mPOST /tickets/delete [31m500[0m 103.569 ms - 28[0m
+[0mPOST /tickets/delete [31m500[0m 75.608 ms - 28[0m
+[0mPOST /tickets/delete [31m500[0m 93.721 ms - 28[0m
+[0mPOST /tickets/delete [31m500[0m 72.765 ms - 28[0m
+[0mPOST /tickets/delete [31m500[0m 99.763 ms - 28[0m
+[0mPOST /tickets/delete [31m500[0m 71.680 ms - 28[0m
+[0mPOST /tickets/delete [31m500[0m 76.388 ms - 28[0m
+[0mPOST /tickets/delete [31m500[0m 79.561 ms - 28[0m
+[0mPOST /tickets/delete [31m500[0m 89.951 ms - 28[0m
+[0mPOST /tickets/delete [31m500[0m 87.369 ms - 28[0m
+[0mPOST /tickets/delete [31m500[0m 64.965 ms - 28[0m
+[0mPOST /tickets/delete [31m500[0m 71.276 ms - 28[0m
+[0mPOST /tickets/delete [31m500[0m 104.018 ms - 28[0m
+[0mPOST /tickets/delete [32m200[0m 327.244 ms - 33[0m
+[0mGET /tickets/all [32m200[0m 110.666 ms - 598[0m
+[0mPOST /tickets/new [32m200[0m 481.174 ms - 38[0m
+[0mGET /tickets/all [32m200[0m 233.501 ms - 794[0m
+[0mPOST /tickets/new [32m200[0m 348.466 ms - 38[0m
+[0mPOST /tickets/new [32m200[0m 251.052 ms - 38[0m
+[0mPOST /tickets/new [32m200[0m 208.206 ms - 38[0m
+[0mGET /tickets/all [32m200[0m 204.439 ms - 1379[0m
+[0mPOST /tickets/new [32m200[0m 440.440 ms - 38[0m
+[0mPOST /tickets/new [32m200[0m 292.981 ms - 38[0m
+[0mPOST /tickets/new [32m200[0m 348.299 ms - 38[0m
+[0mPOST /tickets/new [32m200[0m 199.684 ms - 38[0m
+[0mPOST /tickets/new [32m200[0m 322.684 ms - 38[0m
+[0mPOST /tickets/new [32m200[0m 370.389 ms - 38[0m
+[0mPOST /tickets/new [32m200[0m 241.555 ms - 38[0m
+[0mPOST /tickets/new [32m200[0m 394.343 ms - 38[0m
+[0mPOST /tickets/new [33m400[0m 143.759 ms - 33[0m
+[0mGET /tickets/all [32m200[0m 455.282 ms - 2942[0m
+[0mPOST /tickets/new [32m200[0m 289.453 ms - 38[0m
+[0mGET /tickets/all [32m200[0m 101.397 ms - 3170[0m
+[0mPOST /tickets/delete [32m200[0m 2523.792 ms - 33[0m
+[0mGET /tickets/all [32m200[0m 93.619 ms - 14[0m
+[0mGET /tickets/?status=low [32m200[0m 261.349 ms - 14[0m
+[0mPOST /tickets/new [32m200[0m 249.312 ms - 38[0m
+[0mPOST /tickets/new [32m200[0m 306.973 ms - 38[0m
+[0mPOST /tickets/new [32m200[0m 159.850 ms - 38[0m
+[0mPOST /tickets/new [32m200[0m 247.940 ms - 38[0m
+[0mPOST /tickets/new [32m200[0m 281.701 ms - 38[0m
+[0mPOST /tickets/new [32m200[0m 210.202 ms - 38[0m
+[0mPOST /tickets/new [32m200[0m 186.183 ms - 38[0m
+[0mPOST /tickets/new [32m200[0m 297.089 ms - 38[0m
+[0mPOST /tickets/new [32m200[0m 209.394 ms - 38[0m
+[0mPOST /tickets/new [32m200[0m 264.603 ms - 38[0m
+[0mPOST /tickets/new [32m200[0m 218.868 ms - 38[0m
+[0mPOST /tickets/new [32m200[0m 308.154 ms - 38[0m
+[0mPOST /tickets/new [32m200[0m 166.726 ms - 38[0m
+[0mPOST /tickets/new [32m200[0m 286.858 ms - 38[0m
+[0mPOST /tickets/new [32m200[0m 177.063 ms - 38[0m
+[0mPOST /tickets/new [32m200[0m 327.796 ms - 38[0m
+[0mPOST /tickets/new [32m200[0m 160.894 ms - 38[0m
+[0mPOST /tickets/new [32m200[0m 295.939 ms - 38[0m
+[0mPOST /tickets/new [32m200[0m 223.588 ms - 38[0m
+[0mPOST /tickets/new [32m200[0m 232.021 ms - 38[0m
+[0mPOST /tickets/new [32m200[0m 306.476 ms - 38[0m
+[0mGET /tickets/all [32m200[0m 253.451 ms - 4802[0m
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 08:47:53 GMT] "GET /tickets/all HTTP/1.1" 200 4802 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 08:49:31 GMT] "GET /tickets/all HTTP/1.1" 200 4813 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 08:49:55 GMT] "GET /tickets/?status=low HTTP/1.1" 200 14 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 08:50:04 GMT] "GET /tickets/?status=open HTTP/1.1" 200 4802 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 08:50:13 GMT] "GET /tickets/?priority=low HTTP/1.1" 200 1375 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 08:50:25 GMT] "GET /tickets/?priority=high HTTP/1.1" 200 1833 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 08:51:04 GMT] "GET /tickets/?title=18ticket HTTP/1.1" 200 471 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 08:51:23 GMT] "POST /tickets/delete HTTP/1.1" 500 28 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 08:51:52 GMT] "POST /tickets/delete HTTP/1.1" 200 33 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 08:51:58 GMT] "GET /tickets/?title=18ticket HTTP/1.1" 200 242 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 08:53:46 GMT] "POST /tickets/markAsClosed HTTP/1.1" 400 28 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 08:54:14 GMT] "POST /tickets/new HTTP/1.1" 200 38 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 08:54:23 GMT] "GET /tickets/all HTTP/1.1" 200 4810 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 08:54:42 GMT] "POST /tickets/markAsClosed HTTP/1.1" 200 40 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 08:55:30 GMT] "POST /tickets/markAsClosed HTTP/1.1" 200 40 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 08:59:03 GMT] "GET /tickets/?priority=high HTTP/1.1" 200 1833 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:03:18 GMT] "GET /tickets/?priority=high HTTP/1.1" 200 1833 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:03:26 GMT] "POST /tickets/markAsClosed HTTP/1.1" 300 33 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:04:59 GMT] "POST /tickets/markAsClosed HTTP/1.1" 300 33 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:05:17 GMT] "POST /tickets/markAsClosed HTTP/1.1" 300 33 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:05:44 GMT] "POST /tickets/markAsClosed HTTP/1.1" 300 33 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:06:23 GMT] "POST /tickets/markAsClosed HTTP/1.1" 300 758 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:07:38 GMT] "POST /tickets/markAsClosed HTTP/1.1" 200 40 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:08:18 GMT] "POST /tickets/markAsClosed HTTP/1.1" 300 33 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:08:40 GMT] "GET /tickets/?status=closed HTTP/1.1" 200 469 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:09:57 GMT] "POST /tickets/markAsClosed HTTP/1.1" 300 33 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:10:11 GMT] "POST /tickets/markAsClosed HTTP/1.1" 200 40 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:12:42 GMT] "POST /tickets/markAsClosed HTTP/1.1" 200 40 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:13:02 GMT] "POST /tickets/markAsClosed HTTP/1.1" 300 33 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:13:09 GMT] "POST /tickets/markAsClosed HTTP/1.1" 300 758 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:13:52 GMT] "POST /tickets/markAsClosed HTTP/1.1" 300 758 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:14:48 GMT] "POST /tickets/markAsClosed HTTP/1.1" 300 758 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:15:26 GMT] "POST /tickets/markAsClosed HTTP/1.1" 300 758 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:15:43 GMT] "POST /tickets/markAsClosed HTTP/1.1" 300 758 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:20:17 GMT] "POST /tickets/markAsClosed HTTP/1.1" 300 758 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:20:35 GMT] "POST /tickets/markAsClosed HTTP/1.1" 300 758 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:21:04 GMT] "POST /tickets/markAsClosed HTTP/1.1" 300 758 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:21:38 GMT] "POST /tickets/markAsClosed HTTP/1.1" 300 758 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:23:33 GMT] "POST /tickets/markAsClosed HTTP/1.1" 300 758 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:24:12 GMT] "POST /tickets/markAsClosed HTTP/1.1" 300 758 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:24:46 GMT] "POST /tickets/markAsClosed HTTP/1.1" 300 758 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:25:16 GMT] "POST /tickets/markAsClosed HTTP/1.1" 200 40 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:26:04 GMT] "POST /users/new HTTP/1.1" 200 169 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:26:09 GMT] "GET /tickets/?status=closed HTTP/1.1" 200 698 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:26:14 GMT] "GET /tickets/all HTTP/1.1" 200 4816 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:27:13 GMT] "POST /tickets/delete HTTP/1.1" 500 28 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:27:37 GMT] "POST /tickets/delete HTTP/1.1" 500 28 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:28:09 GMT] "POST /tickets/delete HTTP/1.1" 500 33 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:28:54 GMT] "GET /tickets/all HTTP/1.1" 200 4588 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:29:05 GMT] "POST /tickets/delete HTTP/1.1" 500 28 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:29:22 GMT] "POST /tickets/delete HTTP/1.1" 200 33 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:29:52 GMT] "POST /tickets/delete HTTP/1.1" 400 13 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:30:23 GMT] "POST /tickets/delete HTTP/1.1" 500 28 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:31:10 GMT] "POST /tickets/delete HTTP/1.1" 400 13 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:31:46 GMT] "POST /tickets/delete HTTP/1.1" 500 28 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:32:59 GMT] "POST /tickets/delete HTTP/1.1" 500 28 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:33:34 GMT] "POST /tickets/delete HTTP/1.1" 500 28 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:34:27 GMT] "POST /tickets/delete HTTP/1.1" 500 28 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:35:04 GMT] "POST /tickets/delete HTTP/1.1" 400 33 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:35:14 GMT] "POST /tickets/delete HTTP/1.1" 400 33 "-" "insomnia/2022.5.0"
+::ffff:127.0.0.1 - - [Mon, 08 Aug 2022 09:35:17 GMT] "POST /tickets/delete HTTP/1.1" 400 33 "-" "insomnia/2022.5.0"

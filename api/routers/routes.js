@@ -10,6 +10,7 @@ route.get('/tickets/all',_.getAllTickets);
 route.get('/tickets',_.getTickets);
 route.post('/tickets/markAsClosed',auth,_.closeTicket);
 route.post('/tickets/delete',auth,_.delTicket);
+route.all('*',_.notfound);
 
 export default route
 
